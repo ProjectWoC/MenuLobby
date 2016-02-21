@@ -69,7 +69,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Lobby\Scripts\ColorControl.cs" />
+    <Compile Include="Assets\Lobby\Scripts\GuiLobbyControllers.cs" />
+    <Compile Include="Assets\Lobby\Scripts\GuiLobbyManager.cs" />
     <Compile Include="Assets\Lobby\Scripts\MenuControl.cs" />
+    <Compile Include="Assets\Lobby\Scripts\PlayerLobby.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\ConnectingCanvasHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\ExitToLobbyHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\JoinMatchHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\LobbyCanvasHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\MatchMakerHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\OfflineControlHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\OnlineControlHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\PlayerCanvasHooks.cs" />
+    <Compile Include="Assets\Lobby\Scripts\UI\PopupMessageHooks.cs" />
     <Compile Include="Assets\MainMenu\Scripts\MainMenu.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
